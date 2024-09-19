@@ -8,4 +8,6 @@ What I am learning
 [] To use Git Bash
 [] Methods about verson control
 
-For Now I am trying to get the hang of it while also trying my best to master it
+For Now I am trying to get the hang of it while also trying my best to master it. Anyways thank you for listening about me.
+
+##BYE
