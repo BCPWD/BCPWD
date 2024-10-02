@@ -3,15 +3,64 @@
 <head>
     <title>Marquee Effect</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device=width, initial-scale=1" />
+    <meta name="viewport" content="width=device=width, initial-scale=1"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 2;
+            background-color: #FFF;
+            font-size: 16px;
+            background-color: #f7f7f7;
+            perspective: 1000px;
+        }
+
+        .marquee {
+            border: 1px solid;
+            overflow: hidden;
+            height: 400px;
+            transform: rotateX(55deg);
+            background-color: rgb(128, 128, 128);
+            perspective: 200px;
+        }
+
+        .marquee p {
+            width: auto;
+            height: 100%;
+            margin: auto;
+            line-height: 100px;
+            text-align: center;
+            transform: translateY(95%);
+            animation: scroll-up 10s linear infinite;
+            
+        }
+
+        
+
+        @keyframes scroll-up {
+            0% {
+                transform: translateY(95%);
+            }
+
+            100% {
+                transform: translateY(-150%);
+
+            }
+
+        }
+
+    </style>
 </head>
 
 <body>
-    <style>
 
-        
-    </style>
+    <h1>Marquee Effect Example</h1>
 
-
+    <div class="marquee">
+        <p>This is an example of a animation effect that I have decided to add.</p>
+        <p>With This following along with.</p>
+        <p>THE END </p>
+    </div>
 
 </body>
+
+</html>
